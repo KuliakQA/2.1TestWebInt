@@ -46,7 +46,7 @@ class DebitCardTest {
     @Test
     void NegativeTestPhone(){
         $("[data-test-id=name] input").setValue("Куляк Вадим");
-        $("[data-test-id=phone] input").setValue("7845478");
+        $("[data-test-id=phone] input").setValue("78454785");
         $("[data-test-id=agreement]").click();
         $("button").click();
         $("[data-test-id=phone].input_invalid .input__sub")
